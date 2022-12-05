@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@200;300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    margin: auto;
+    font-family: 'Heebo', sans-serif;;
+}
+
+/* header */
+
+#portada
+  {
+     width: 100%;
+    z-index: -1;
+  }
+#perfil{
+    position:absolute;
+    height:200px;
+    width:200px;
+    top: 100px;
+    left : 45%;
+    z-index: 1;
+    border-radius: 50%;
+  }
+/* experiencias y estudios */ 
+main{
+
+
+    width: 1400px;
+    height: 1000px;
+    margin: auto;
+}
+#contenidoLaboral {
+    margin-top: 150px;
+    justify-content: center;
+}
+#contenidoLenguaje{
+    margin-top: 32px;
+    justify-content: center;
+
+}
+.titulo-h1{
+    font-size: 28px;
+    text-align: center;
+    margin: 10px;
+
+}
+.card{
+    margin: 32px;
+
+}
+.card2{
+    border: none;
+}
+
+.card:hover{
+    border-color: #EDCCD7;
+
+}
+
+
+/* footer */
+footer{
+    width: 100%;
+    height: 80px;
+    background: #EDCCD7;
+    line-height: 80px;
+    display: flex;
+    text-align: center;
+}
+
+#contacto img{
+    width: 32px;
+    margin: 10px;
+}
+
+#contacto{
+    width: 100px;
+    margin: auto;
+    display: flex;
+
+}
+footer a img:hover{
+    opacity: 70%;
+    transition: 0.5s;
+}
+
